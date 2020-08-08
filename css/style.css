@@ -67,9 +67,9 @@ body {
   border-bottom: 1.5px solid black;
 }
 .main {
-  max-width: 1320px;
+  min-width: 1320px;
   width: 100%;
-  max-height: 592px;
+  min-height: 452px;
   margin-top: 29px;
   background-color: #fffaf3;
   z-index: 2;
@@ -162,24 +162,17 @@ body {
   padding-left: 15px;
 }
 .footer-img {
-  position: absolute;
-  width: 22.53px;
-  height: 32px;
-  left: 779px;
-  top: 688px;
+  margin: auto;
 }
-.eclipse1 {
-  position: absolute;
-  width: 3px;
-  height: 3px;
-  left: 789px;
-  top: 682px;
+*.eclipse1 {
+  margin: auto;
+  margin-bottom: 2px;
+  opacity: 0.3;
 }
 .eclipse2 {
-  position: absolute;
-  width: 3px;
-  height: 3px;
-  left: 789px;
-  top: 676px;
-  opacity: 0.5;
+  margin: auto;
+  margin-bottom: 2px;
+}
+.mouse-pic {
+  display: flex;
 }
